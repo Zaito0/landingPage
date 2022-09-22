@@ -20,7 +20,7 @@
 <body>
   <header class="hero" id="particles-js">
 
-    <nav class="navbar navbar-expand-lg bg-light ">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="/assets/img/coding.png" alt="logo" class="hero-logo__img"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -30,26 +30,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Servicios</a>
+              <a class="nav-link" href="#Servicios">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Características</a>
+              <a class="nav-link" href="#Carac">Características</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#Port">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Hablemos</a>
+              <a class="nav-link" href="#Hablemos">Hablemos</a>
             </li>
           </ul>
 
         </div>
       </div>
     </nav>
-    <div class="hero-text-box">
+    <div class="hero-text-box" id="inicio">
       <h1 class="hero-title">
         <span class="hero-title-main">Full Stack Developer</span>
         <span class="hero-title-sub">Diseño y desarrollo de soluciones digitales</span>
@@ -82,7 +82,7 @@
         </div>
         <!--End Card 1-->
         <!--Card 2-->
-        <div class="col-12 col-md-4 my-5">
+        <div class="col-12 col-md-4 my-5" id="Servicios">
           <div class="card card-lg">
             <div class="card-lg__side card-lg__side--front">
               <div class="card-lg__img card-lg__img--2">
@@ -128,7 +128,7 @@
   </div>
 
   <!--Features-->
-  <section class="features">
+  <section class="features" id="Carac">
     <div class="row">
       <!-- Features Card 1 -->
       <div class="col-12 col-md-6 col-lg-3 my-5">
@@ -167,7 +167,7 @@
   <!--End Features -->
 
   <!-- Portfolio -->
-  <section class="portfolio">
+  <section class="portfolio" id="Port">
     <h2 class="portfolio-title">Algunos Proyectos</h2>
     <div class="row">
       <div class="col-12 col-lg-4">
@@ -211,7 +211,8 @@
   <!-- End Technologies -->
 
   <!-- Footer -->
-  <footer class="footer">
+  
+  <footer class="footer" id="Hablemos">
     <div class="row">
       <div class="col-12 col-lg-6">
         <form action="#" class="footer-form">
